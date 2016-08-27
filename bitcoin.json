@@ -1,0 +1,33 @@
+{
+  "id": 3,
+  "name": "Bitcoin",
+  "icon": "https://cdn1.iconfinder.com/data/icons/marketing-colored/60/coin-bitcoin-money-digital-128.png",
+  "urls": [
+    {
+      "item": {
+        "link": "https://api.coindesk.com/v1/bpi/currentprice.json",
+        "instructions": [
+          {
+            "text": "${BTC price €}"
+          },
+          {
+            "value": "bpi.EUR.rate_float"
+          }
+        ]
+      }
+    },
+    {
+      "item": {
+        "link": "https://blockchain.info/stats?format=json",
+        "instructions": [
+          {
+            "value": "minutes_between_blocks"
+          },
+          {
+            "text": "minutes between blocks"
+          }
+        ]
+      }
+    }
+  ]
+}
