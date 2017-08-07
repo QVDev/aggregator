@@ -1,0 +1,5 @@
+id=15
+name=Bitcoin
+icon=https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png
+urls=https://api.coinmarketcap.com/v1/ticker/bitcoin-cash/
+instructions=${BCH price \u0024}-[0].price_usd
